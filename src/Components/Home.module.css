@@ -1,0 +1,110 @@
+/* *{
+    text-align: center;
+} */
+
+.top_box {
+    border: 1px solid black;
+    width: 100%;
+    width: 100%;
+    margin-left: auto;
+    background-image: url(https://content.asos-media.com/-/media/homepages/unisex/homepages/2021/12_dec/sale/xmas-sale-2021/single-gradient/6/desktop.jpg);
+}
+
+.sale_img {
+    text-align: center;
+    margin: 20px;
+}
+
+.sale_img>img {
+    height: 70px;
+}
+
+.sale_text {
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+
+
+
+.fisrt_data {
+    display: flex;
+    gap: 20px;
+    padding-left: 0.6rem;
+    overflow: hidden;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.fisrt_data>div img {
+    height: 300px;
+    width: auto;
+}
+
+.fisrt_data>div h2 {
+    border: 1px solid yellow;
+    height: 60px;
+    text-align: center;
+    background-color: white;
+    margin-top: -8px;
+}
+
+.oi {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+}
+
+.fisrt_data::-webkit-scrollbar {
+    display: none;
+}
+
+.fisrt_data {
+    overflow: scroll;
+}
+
+.home {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 35px;
+   
+}
+
+.home>div img {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: -15px;
+}
+.homeA{
+    width: 30%;
+    display: flex;
+}
+.home>div h3 {
+    border: 1px solid yellow;
+    height: 60px;
+    text-align: center;
+    word-wrap: break-word;
+
+}
+
+.active{
+    color: "white";
+    background-color: "black";
+}
+
+.not_active{
+    color: white;
+    background-color: teal;
+}
+.not_active:hover{
+    color: white;
+    background-color: green;
+}

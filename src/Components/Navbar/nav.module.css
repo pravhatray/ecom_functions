@@ -1,0 +1,38 @@
+
+
+.nav_icon1{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.nav_icon2{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+.nav_icon3{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content:space-evenly;
+    /* border: 1px solid yellow; */
+    align-items: center;
+    cursor: pointer;
+   
+    
+}
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+.active{
+    color: red;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}

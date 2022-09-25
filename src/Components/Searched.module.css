@@ -1,0 +1,27 @@
+.box{
+   display:flex;
+
+}
+.pic{
+    width: 40px;
+    height: 30px;
+} 
+.main{
+    /* border:1px solid; */
+        height:300px;
+        position:absolute;
+        top:10%;
+        /* visibility: hidden; */
+        border-top:none ;
+        overflow:scroll;
+        z-index: 1;
+        width:auto;
+        left:52%;
+        background-color:whitesmoke;
+}
+/* .main.active{
+    visibility: visible;
+} */
+.main::-webkit-scrollbar{
+    display:none;
+}
